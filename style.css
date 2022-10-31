@@ -240,39 +240,9 @@ body {
     clear: both;
     margin-top: -30px;
   }
-  /* extra large */
-  @media (min-width: 1200px) {
-    .container .jumbotron {
-      background: url('../images/jumbotron_1200.jpg') no-repeat;
-      height: 675px;
-      max-width: 1140px;
-    }
-  }
-  
+
   .container {
     max-width: 1140px;
-  }
-  
-  /* large */
-  @media (min-width: 992px) and (max-width: 1199px) {
-    #logo-img {
-      /* cabeçalho */
-      background: url('../images/restaurant-logo_large.png') no-repeat;
-      width: 100px;
-      height: 100px;
-      background-size: 100px;
-      margin: 5px 5px 5px 0;
-    }
-    .container .jumbotron {
-      background: url('../images/jumbotron_992.jpg') no-repeat;
-      height: 558px;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .container .jumbotron {
-      background: url('../images/jumbotron_768.jpg') no-repeat;
-      height: 432px;
-    }
   }
   /********** small  **********/
   @media (max-width: 991px) {
@@ -322,6 +292,7 @@ body {
       letter-spacing: .1em;
       text-transform: uppercase;
     }
+ 
   }
   @media (max-width: 767px) {
     .container .jumbotron {
@@ -332,5 +303,10 @@ body {
     #especialidades-item
     {
       background-size: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    #nav-list {
+      height: 100vh;
     }
   }
