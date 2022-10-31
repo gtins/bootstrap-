@@ -184,20 +184,6 @@ body {
     background-color: rgb(42, 42, 42);
     border: 0;
   }
- 
-  .navbar-brand h1 {
-    font-family: 'Lora', serif;
-    color: #557c3e;
-    font-size: 1.5rem;
-    /* 1.5 * 16px */
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-    padding-top: 25px;
-  }
   .navbar-brand p {
     color: #000;
     text-transform: uppercase;
@@ -245,66 +231,6 @@ body {
     max-width: 1140px;
   }
   /********** small  **********/
-  @media (max-width: 991px) {
-    /* Header */
-    .navbar-brand {
-      padding-top: 10px;
-      height: 90px;
-    }
-    .navbar-brand h1 {
-      padding-top: 10px;
-      font-size: 5vw;
-      /* 1vw = 1% of viewport width */
-    }
-    .navbar-brand p {
-      /* Kosher cert */
-      font-size: .6em;
-      margin-top: 12px;
-    }
-    .navbar-brand p img {
-      /* Star-K */
-      height: 20px;
-    }
-    #collapsable-nav a {
-      /* Collapsed nav menu text */
-      font-size: 1.2em;
-    }
-    #collapsable-nav a i {
-      /* Collapsed nav menu glyph */
-      font-size: 1em;
-      margin-right: 5px;
-    }
-    #call-btn {
-      margin-top: 20px;
-    }
-    #call-btn a {
-      font-size: 1.5em;
-      display: block;
-      margin: 0 20px;
-      padding: 10px;
-      border: 2px solid #fff;
-      background-color: #f6b319;
-      color: #951c49;
-    }
-    #md-deliver {
-      margin-top: 5px;
-      font-size: .7em;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }
- 
-  }
-  @media (max-width: 767px) {
-    .container .jumbotron {
-      padding: 0;
-      margin-top: 30px;
-    }
-    #menu-item,
-    #especialidades-item
-    {
-      background-size: 100%;
-    }
-  }
   @media (max-width: 767px) {
     #nav-list {
       height: 100vh;
